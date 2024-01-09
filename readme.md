@@ -18,7 +18,7 @@ David Koteski
 
 ## 9.1.2024
 
-Heute habe ich schon zwei Logos erstellt, welche im passenden Format für das Programm formatiert wurden. Im Laufe der Zeit werde ich mich für eins von den beiden Logos entscheiden. Beide Logos sind im Ordner "Logo" zu sehen.
+Heute habe ich schon zwei Logos erstellt, welche im passenden Format für das Programm formatiert wurden. Im Laufe der Zeit werde ich mich für eins von den beiden Logos entscheiden. Beide Logos sind im Ordner "Logo" zu sehen. Der Kürzel VSP steht für Visual Studio Programmer (sehr einfallsreich :D ).
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ## 16.1 und 23.1.2024
