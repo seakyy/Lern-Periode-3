@@ -2,7 +2,7 @@
 
 David Koteski
 
-9.1.2024 bis 30.1.2024 (☃️ Sportferien)
+9.1.2024 bis 30.1.2024 (☃️- Sportferien)
 
 ## Grob-Planung
 
@@ -16,10 +16,15 @@ David Koteski
 3. Was wäre ein geeignetes Projekt würd diese LP3?
    Mit Visual Studio ein eigenen Music Player entwickeln, da ich mir Spotify Premium nicht leisten kann.
 
+   Nun will ich wieder in WinForms ein Music Player machen, der Songs erkennt ( im .mp3 Format) und spielen kann. Zudem sollte er alle notwendigen Funktionen haben wie zum Beispiel Start, Stopp, Überspringen usw.
+   Der wichtigste Punkt ist jedoch dass das Programm GARTIS ist und man für nichts zahlen muss.
+
 ## 9.1.2024
 
 Heute habe ich schon zwei Logos erstellt, welche im passenden Format für das Programm formatiert wurden. Im Laufe der Zeit werde ich mich für eins von den beiden Logos entscheiden. Beide Logos sind im Ordner "Logo" zu sehen. Der Kürzel VSP steht für Visual Studio Programmer (sehr einfallsreich :D ). Ich schaute nach wie man das Symbol in Visual Studio einfügt und mir wurde klar, das die .png Datei nicht geht. Somit musste ich sie aus einer Website in einer .ico Datei umwandeln. Somit ist es jetzt ein richtiges Symbol und kein "Bild" mehr.
-✍️ Heute habe ich... (50-100 Wörter)
+Ich habe bis jetzt nur en Hintergrund und das Logo / Namen für das Programm. 
+
+[✍️ Heute habe ich... (50-100 Wörter) ]
 
 ## 16.1.2024
 
