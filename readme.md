@@ -18,22 +18,22 @@ David Koteski
 
 ## 9.1.2024
 
-Heute habe ich schon zwei Logos erstellt, welche im passenden Format für das Programm formatiert wurden. Im Laufe der Zeit werde ich mich für eins von den beiden Logos entscheiden. Beide Logos sind im Ordner "Logo" zu sehen. Der Kürzel VSP steht für Visual Studio Programmer (sehr einfallsreich :D ).
+Heute habe ich schon zwei Logos erstellt, welche im passenden Format für das Programm formatiert wurden. Im Laufe der Zeit werde ich mich für eins von den beiden Logos entscheiden. Beide Logos sind im Ordner "Logo" zu sehen. Der Kürzel VSP steht für Visual Studio Programmer (sehr einfallsreich :D ). Ich schaute nach wie man das Symbol in Visual Studio einfügt und mir wurde klar, das die .png Datei nicht geht. Somit musste ich sie aus einer Website in einer .ico Datei umwandeln. Somit ist es jetzt ein richtiges Symbol und kein "Bild" mehr.
 ✍️ Heute habe ich... (50-100 Wörter)
 
-## 16.1 und 23.1.2024
+## 16.1.2024
 
-- [ ] Ein Design machen, wie in etwa der Music Player aussehen sollte.
-- [ ] Notieren was für Funktionen ich brauchen werde.
-- [ ] Wo sollten die .mp3 Dateien gespeichert werden?
-- [ ] Ein eigenes Logo designen, somit man erkennen kann dass das mein Programm ist. (Wie eine Watermark)
+- [ ] Ein Logo als Watermark verwenden
+- [ ].mp3 Dateien speichern, um diese später auszulesen
+- [ ] Notieren was für Funktionen ich brauchen werde (Icons). Funktionen bei grossen Diensten abschauen
+- [ ] Icons (pause / Start usw.) einfügen und funktionsfähig machen
 
-| estfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+|Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
-| 1              |                      |                |                |          |
-| 2              |                      |                |                |          |
-| 3              |                      |                |                |          |
-| 4              |                      |                |                |          |
+| 1              |    Programm          |   Starten      |    Bild        | ja       |
+| 2              |     & mp3-Dateien    |  Song einfügen |Song gespeichert|          |
+| 3              |   Spotify & Souncloud|        -       |        -       |          |
+| 4              | Programm & Website   |Click auf Start |  Song spielt   |          |
 
 ✍️ Heute am 16.1 habe ich... (50-100 Wörter)
 
@@ -41,16 +41,17 @@ Heute habe ich schon zwei Logos erstellt, welche im passenden Format für das Pr
 
 ## 23.1.2024
 
-- [ ] Fünftes AP
-- [ ] ...
-
-- [ ] Achtes AP
+- [ ] Liste einfügen, in der später die Songs angezeigt werden
+- [ ] Songs auswählen, funktionieren sie?
+- [ ] Mehrere Songs auf einmal auswählen
+- [ ] Musik spielen und schauen ob alles funktionieren
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 5               |                      |                |                |          |
-| ...             |                      |                |                |          |
-| 8               |                      |                |                |          |
+| 5               |   Programm & Liste   | Click auf Liste| Alle Songs     |          |
+| 6               |   Programm & Folder  | Song auswählen |Song im Programm|          |
+| 7               |   Programm & Folder  |  2-∞ Songs     |Songs im Programm|         |
+| 8               |     Programm         |  Song & Start  | Song spielt    |          |
 
 ✍️ Heute am 23.1 habe ich... (50-100 Wörter)
 
