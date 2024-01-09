@@ -1,14 +1,20 @@
 # Lern-Periode 3
 
-Max Muster
+David Koteski
 
 9.1.2024 bis 30.1.2024 (☃️ Sportferien)
 
 ## Grob-Planung
 
 1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
+   Modul 319 - Programmieren mit C# Note: 5.5
+   Ich bin in keinem Modul ungenügend, alle Module sind über der Note 5.0
+   
 2. Was hatten Sie sich am Ende von LP2 vorgenommen? Was war Ihr VBV? Wie könnten Sie diesen besonders gut üben?
+   Eigentlich wollte ich mehr mit Windows Forms programmieren, somit sieht das Programm hochwertiger aus.
+   
 3. Was wäre ein geeignetes Projekt würd diese LP3?
+   Mit Visual Studio ein eigenen Music Player entwickeln, da ich mir Spotify Premium nicht leisten kann.
 
 ## 9.1.2024
 
@@ -16,14 +22,16 @@ Max Muster
 
 ## 16.1 und 23.1.2024
 
-- [ ] Erstes Arbeitspaket
-- [ ] ...
-- [ ] Viertes AP
+- [ ] Ein Design machen, wie in etwa der Music Player aussehen sollte.
+- [ ] Notieren was für Funktionen ich brauchen werde.
+- [ ] Wo sollten die .mp3 Dateien gespeichert werden?
+- [ ] Ein eigenes Logo designen, somit man erkennen kann dass das mein Programm ist. (Wie eine Watermark)
 
 | estfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
 | 1              |                      |                |                |          |
-| ...            |                      |                |                |          |
+| 2              |                      |                |                |          |
+| 3              |                      |                |                |          |
 | 4              |                      |                |                |          |
 
 ✍️ Heute am 16.1 habe ich... (50-100 Wörter)
