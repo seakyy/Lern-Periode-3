@@ -36,11 +36,15 @@ Ich habe bis jetzt nur en Hintergrund und das Logo / Namen für das Programm.
 |Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
 | 1              |    Programm          |   Starten      |    Bild        | ja       |
-| 2              |     & mp3-Dateien    |  Song einfügen |Song gespeichert|          |
+| 2              |     & mp3-Dateien    |  Song einfügen |Song gespeichert| ja       |
 | 3              |   Spotify & Souncloud|        -       |        -       |          |
-| 4              | Programm & Website   |Click auf Start |  Song spielt   |          |
+| 4              | Programm & Website   |Click auf Start |  Song spielt   | ja       |
 
 ✍️ Heute am 16.1 habe ich... (50-100 Wörter)
+
+Zuerst habe ich ein Logo für das Schliess-Symbol wie auf allen anderen Apps ausgesucht und dessen Funktion erstellt. Ich habe eine Listbox eingefügt, damit man die Songs sehen kann, welche man Spielen kann. Die Songs sind nicht vorinstalliert. Man muss sie selber herunterladen (mp3 wird bevorzugt, aber mp4 funktioniert auch) und dann im Programm auswählen. Dafür habe ich einen eigenen Button hinzugefügt, welcher direkt den Explorer öffnet. Ich habe mein eigenes Logo im Programm verewigt. 
+
+(Website: https://icons8.de/icons/set/close)
 
 ☝️ Vergessen Sie nicht, bis zum 16.1 einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
