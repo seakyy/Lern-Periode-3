@@ -28,10 +28,10 @@ Ich habe bis jetzt nur en Hintergrund und das Logo / Namen für das Programm.
 
 ## 16.1.2024
 
-- [ ] Ein Logo als Watermark verwenden
-- [ ].mp3 Dateien speichern, um diese später auszulesen
-- [ ] Notieren was für Funktionen ich brauchen werde (Icons). Funktionen bei grossen Diensten abschauen
-- [ ] Icons (pause / Start usw.) einfügen und funktionsfähig machen
+- [ x ] Ein Logo als Watermark verwenden
+- [ x ].mp3 Dateien speichern, um diese später auszulesen
+- [ x ] Notieren was für Funktionen ich brauchen werde (Icons). Funktionen bei grossen Diensten abschauen
+- [ x ] Icons (pause / Start usw.) einfügen und funktionsfähig machen
 
 |Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
@@ -50,19 +50,21 @@ Zuerst habe ich ein Logo für das Schliess-Symbol wie auf allen anderen Apps aus
 
 ## 23.1.2024
 
-- [ ] Liste einfügen, in der später die Songs angezeigt werden
-- [ ] Songs auswählen, funktionieren sie?
-- [ ] Mehrere Songs auf einmal auswählen
-- [ ] Musik spielen und schauen ob alles funktionieren
+- [ x ] Liste einfügen, in der später die Songs angezeigt werden
+- [ x ] Songs auswählen, funktionieren sie?
+- [ x ] Mehrere Songs auf einmal auswählen
+- [ x ] Musik spielen und schauen ob alles funktionieren
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 5               |   Programm & Liste   | Click auf Liste| Alle Songs     |          |
-| 6               |   Programm & Folder  | Song auswählen |Song im Programm|          |
-| 7               |   Programm & Folder  |  2-∞ Songs     |Songs im Programm|         |
-| 8               |     Programm         |  Song & Start  | Song spielt    |          |
+| 5               |   Programm & Liste   | Click auf Liste| Alle Songs     |    ja    |
+| 6               |   Programm & Folder  | Song auswählen |Song im Programm|    ja    |
+| 7               |   Programm & Folder  |  2-∞ Songs     |Songs im Programm|   ja    |
+| 8               |     Programm         |  Song & Start  | Song spielt    |    ja    |
 
 ✍️ Heute am 23.1 habe ich... (50-100 Wörter)
+
+Durch den Click auf "songs auswählne" öffnet sich der Explorer und man kann die heruntergeladenen Songs auswählen. Zurzeit konnte man nur ein Song auf einmal auswählen, was es sehr anstrengend macht, wenn man mehrere Songs haben möchte. Mit einer einfachen Schleife kann man schon mehrere Songs herunterladen. Leider kann man mit diesem Programm die Songs nicht verlangsamen (o,5x Speed) oder schneller machen. Jedoch funktioniert das Programm im ganzen und ich konnte keine Fehler/ Bugs finden.
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
