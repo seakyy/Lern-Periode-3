@@ -20,7 +20,7 @@ namespace Music_Player
         // Songs speichern (Pfad für Songs)
         String[] paths, files;
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void CloseIcon_Click(object sender, EventArgs e)
         {
             this.Close();   // App schliessen
         }
@@ -36,16 +36,18 @@ namespace Music_Player
                 files = ofd.SafeFileNames;  // Name vom Song speichern
                 paths = ofd.FileNames;      // Ort vom Song speichern
 
-                for (int i = 0; i < files.Length; i++)  // Titel in "ListBoxSongs" anzeigen
+                for (int i = 0; i < files.Length; i++)  // Titel in "ListedSongs" hinzufügen
                 {
-                    listBoxSongs.Items.Add(files[i]);
+                    ListedSongs.Items.Add(files[i]);
                 }
             }
         }
 
-        private void listBoxSongs_SelectedIndexChanged(object sender, EventArgs e)
+        
+
+        private void ListedSongs_SelectedIndexChanged(object sender, EventArgs e)
         {
-            axWindowsMediaPlayerMusic.URL = paths[listBoxSongs.SelectedIndex]; //Musik spielen lassen
+            axWindowsMediaPlayerMusic.URL = paths[ListedSongs.SelectedIndex]; //Musik spielen lassen
         }
 
         private void Developer_Click(object sender, EventArgs e)
