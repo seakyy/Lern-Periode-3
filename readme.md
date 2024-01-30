@@ -78,10 +78,14 @@ Durch den Click auf "songs auswählne" öffnet sich der Explorer und man kann di
 
 ✍️ Heute am 23.1 habe ich... (50-100 Wörter)
 
-Heute habe ich meinen Code nach der Checkliste gesäubert. Ich habe Variabeln und Funktionen umbenannt, so das der Code selbst erklärend ist. Meine Kommentare habe ich nicht geändert, da die Funktion und das Prinzip (Was macht diese Funktion? Wieso?) gleichgeblieben ist.
+Heute habe ich meinen Code nach der Checkliste gesäubert. Ich habe Variabeln und Funktionen umbenannt, so das der Code selbst erklärend ist. Meine Kommentare habe ich nicht geändert, da die Funktion und das Prinzip (Was macht diese Funktion? Wieso?) gleichgeblieben ist. Eine neue Website wurde dazu erstellt, die Informationen über mich ausgibt.
 
 ## Reflexion
 
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
+
+In dieser kurzen Zeit habe ich mir vorgenommen ein kleines Projekt zu erstellen, bei dem ich mich fokussiert habe die Grundlagen des Windows Forms besser kennenzulernen und zu beherrschen. Mir hat diese kurze Lernperiode sehr gefallen, weil ich keine Zeit verschwendet habe, da ich konstant unter Zeitdruck war. Ich habe den Music Player in einem Tag programmiert und musste danach den Code aussäubern und habe gelernt, wie ich einen selbsterklärenden Code schreibe, bei dem der Name der Variablen und Funktionen sehr wichtig ist.
+
+Wenn ich mich zwischen einer langen und einer kurzen Lern-Periode entscheiden müsste, würde ich beides auswählen aber immer zwischen den Beiden abwechseln, da beide seine Vor- und Nachteile haben. Für ein kleines Projekt, ohne eine Gruppe, bevorzuge ich diese kurze Lernperiode. Aber wenn man mit Freunden ein grosses Projekt programmieren muss, würde ich stets eine lange Lern-Periode, wie etwa die LP2 zugreifen.
 
 Verfassen Sie zusätzlich einen kurzen Abschnitt, in welchem Sie über die Länge der Projekte reflektieren: Fanden Sie die 9-wöchtige LP2 oder die 4-wöchige LP3 angenehmer? Was bedeutet das für Ihre Planung der zukünftigen LP?
