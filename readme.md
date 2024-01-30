@@ -19,6 +19,9 @@ David Koteski
    
    Mit Visual Studio ein eigenen Music Player entwickeln, da ich mir Spotify Premium nicht leisten kann.
 
+
+
+
    Nun will ich wieder in WinForms ein Music Player machen, der Songs erkennt ( im .mp3 Format) und spielen kann. Zudem sollte er alle notwendigen Funktionen haben wie zum Beispiel Start, Stopp, Überspringen usw.
    Der wichtigste Punkt ist jedoch dass das Programm GARTIS ist und man für nichts zahlen muss.
 
