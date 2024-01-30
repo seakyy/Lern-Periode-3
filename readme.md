@@ -7,13 +7,16 @@ David Koteski
 ## Grob-Planung
 
 1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
+
    Modul 319 - Programmieren mit C# Note: 5.5
    Ich bin in keinem Modul ungenügend, alle Module sind über der Note 5.0
    
 2. Was hatten Sie sich am Ende von LP2 vorgenommen? Was war Ihr VBV? Wie könnten Sie diesen besonders gut üben?
+   
    Eigentlich wollte ich mehr mit Windows Forms programmieren, somit sieht das Programm hochwertiger aus.
    
 3. Was wäre ein geeignetes Projekt würd diese LP3?
+   
    Mit Visual Studio ein eigenen Music Player entwickeln, da ich mir Spotify Premium nicht leisten kann.
 
    Nun will ich wieder in WinForms ein Music Player machen, der Songs erkennt ( im .mp3 Format) und spielen kann. Zudem sollte er alle notwendigen Funktionen haben wie zum Beispiel Start, Stopp, Überspringen usw.
