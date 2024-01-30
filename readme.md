@@ -72,6 +72,8 @@ Durch den Click auf "songs auswählne" öffnet sich der Explorer und man kann di
 
 ✍️ Heute am 23.1 habe ich... (50-100 Wörter)
 
+Heute habe ich meinen Code nach der Checkliste gesäubert. Ich habe Variabeln und Funktionen umbenannt, so das der Code selbst erklärend ist. Meine Kommentare habe ich nicht geändert, da die Funktion und das Prinzip (Was macht diese Funktion? Wieso?) gleichgeblieben ist.
+
 ## Reflexion
 
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
