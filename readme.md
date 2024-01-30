@@ -23,7 +23,7 @@ David Koteski
 
 
    Nun will ich wieder in WinForms ein Music Player machen, der Songs erkennt ( im .mp3 Format) und spielen kann. Zudem sollte er alle notwendigen Funktionen haben wie zum Beispiel Start, Stopp, Überspringen usw.
-   Der wichtigste Punkt ist jedoch dass das Programm GARTIS ist und man für nichts zahlen muss.
+   Der wichtigste Punkt ist jedoch dass das Programm GRATIS ist und man für nichts zahlen muss.
 
 ## 9.1.2024
 
