@@ -1,4 +1,4 @@
-﻿namespace missPacMan
+namespace Music_Player
 {
     partial class Form1
     {
@@ -28,219 +28,134 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.wall = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.redGhost = new System.Windows.Forms.PictureBox();
-            this.yellowGhost = new System.Windows.Forms.PictureBox();
-            this.pinkGhost = new System.Windows.Forms.PictureBox();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.colorDialog2 = new System.Windows.Forms.ColorDialog();
-            this.pacman = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.wall)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.redGhost)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yellowGhost)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pinkGhost)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pacman)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.TopPanel = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.VSPLabel = new System.Windows.Forms.Label();
+            this.ListedSongs = new System.Windows.Forms.ListBox();
+            this.btnSelectSongs = new System.Windows.Forms.Button();
+            this.Logo = new System.Windows.Forms.PictureBox();
+            this.Developer = new System.Windows.Forms.Label();
+            this.axWindowsMediaPlayerMusic = new AxWMPLib.AxWindowsMediaPlayer();
+            this.TopPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayerMusic)).BeginInit();
             this.SuspendLayout();
             // 
-            // wall
+            // TopPanel
             // 
-            this.wall.BackColor = System.Drawing.Color.MidnightBlue;
-            this.wall.Location = new System.Drawing.Point(403, 66);
-            this.wall.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.wall.Name = "wall";
-            this.wall.Size = new System.Drawing.Size(20, 158);
-            this.wall.TabIndex = 0;
-            this.wall.TabStop = false;
-            this.wall.Tag = "wall";
+            this.TopPanel.BackColor = System.Drawing.Color.DodgerBlue;
+            this.TopPanel.Controls.Add(this.pictureBox1);
+            this.TopPanel.Controls.Add(this.VSPLabel);
+            this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TopPanel.Location = new System.Drawing.Point(0, 0);
+            this.TopPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TopPanel.Name = "TopPanel";
+            this.TopPanel.Size = new System.Drawing.Size(773, 41);
+            this.TopPanel.TabIndex = 0;
             // 
-            // pictureBox3
+            // pictureBox1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.MidnightBlue;
-            this.pictureBox3.Location = new System.Drawing.Point(233, 66);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(21, 158);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Tag = "wall";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(731, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(39, 41);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.CloseIcon_Click);
             // 
-            // pictureBox4
+            // VSPLabel
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.MidnightBlue;
-            this.pictureBox4.Location = new System.Drawing.Point(114, 305);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(21, 172);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Tag = "wall";
+            this.VSPLabel.AutoSize = true;
+            this.VSPLabel.Font = new System.Drawing.Font("Bauhaus 93", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VSPLabel.Location = new System.Drawing.Point(11, 7);
+            this.VSPLabel.Name = "VSPLabel";
+            this.VSPLabel.Size = new System.Drawing.Size(153, 21);
+            this.VSPLabel.TabIndex = 0;
+            this.VSPLabel.Text = "VSP Music Player";
             // 
-            // redGhost
+            // ListedSongs
             // 
-            this.redGhost.Image = global::missPacMan.Properties.Resources.red_guy;
-            this.redGhost.Location = new System.Drawing.Point(278, 122);
-            this.redGhost.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.redGhost.Name = "redGhost";
-            this.redGhost.Size = new System.Drawing.Size(36, 38);
-            this.redGhost.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.redGhost.TabIndex = 4;
-            this.redGhost.TabStop = false;
-            this.redGhost.Tag = "ghost";
+            this.ListedSongs.Font = new System.Drawing.Font("Rockwell", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ListedSongs.FormattingEnabled = true;
+            this.ListedSongs.ItemHeight = 20;
+            this.ListedSongs.Location = new System.Drawing.Point(555, 64);
+            this.ListedSongs.Name = "ListedSongs";
+            this.ListedSongs.Size = new System.Drawing.Size(191, 244);
+            this.ListedSongs.TabIndex = 1;
+            this.ListedSongs.SelectedIndexChanged += new System.EventHandler(this.ListedSongs_SelectedIndexChanged);
             // 
-            // yellowGhost
+            // btnSelectSongs
             // 
-            this.yellowGhost.Image = global::missPacMan.Properties.Resources.yellow_guy;
-            this.yellowGhost.Location = new System.Drawing.Point(233, 420);
-            this.yellowGhost.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.yellowGhost.Name = "yellowGhost";
-            this.yellowGhost.Size = new System.Drawing.Size(36, 38);
-            this.yellowGhost.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.yellowGhost.TabIndex = 5;
-            this.yellowGhost.TabStop = false;
-            this.yellowGhost.Tag = "ghost";
+            this.btnSelectSongs.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnSelectSongs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelectSongs.Font = new System.Drawing.Font("Unispace", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectSongs.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSelectSongs.Location = new System.Drawing.Point(555, 325);
+            this.btnSelectSongs.Name = "btnSelectSongs";
+            this.btnSelectSongs.Size = new System.Drawing.Size(191, 57);
+            this.btnSelectSongs.TabIndex = 2;
+            this.btnSelectSongs.Text = "Select Songs";
+            this.btnSelectSongs.UseVisualStyleBackColor = false;
+            this.btnSelectSongs.Click += new System.EventHandler(this.btnSelectSongs_Click);
             // 
-            // pinkGhost
+            // Logo
             // 
-            this.pinkGhost.Image = global::missPacMan.Properties.Resources.pink_guy;
-            this.pinkGhost.Location = new System.Drawing.Point(539, 408);
-            this.pinkGhost.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pinkGhost.Name = "pinkGhost";
-            this.pinkGhost.Size = new System.Drawing.Size(36, 38);
-            this.pinkGhost.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pinkGhost.TabIndex = 6;
-            this.pinkGhost.TabStop = false;
-            this.pinkGhost.Tag = "ghost";
+            this.Logo.Image = ((System.Drawing.Image)(resources.GetObject("Logo.Image")));
+            this.Logo.Location = new System.Drawing.Point(224, 398);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(63, 51);
+            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Logo.TabIndex = 4;
+            this.Logo.TabStop = false;
             // 
-            // pacman
+            // Developer
             // 
-            this.pacman.Image = global::missPacMan.Properties.Resources.right;
-            this.pacman.Location = new System.Drawing.Point(12, 184);
-            this.pacman.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pacman.Name = "pacman";
-            this.pacman.Size = new System.Drawing.Size(40, 40);
-            this.pacman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pacman.TabIndex = 7;
-            this.pacman.TabStop = false;
+            this.Developer.AutoSize = true;
+            this.Developer.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Developer.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.Developer.Location = new System.Drawing.Point(293, 414);
+            this.Developer.Name = "Developer";
+            this.Developer.Size = new System.Drawing.Size(245, 18);
+            this.Developer.TabIndex = 5;
+            this.Developer.Text = "Developed by: VSP";
+            this.Developer.Click += new System.EventHandler(this.Developer_Click);
             // 
-            // label1
+            // axWindowsMediaPlayerMusic
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(50, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 29);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(211, 238);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(169, 59);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "label2";
-            // 
-            // timer1
-            // 
-            this.timer1.Interval = 20;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.MidnightBlue;
-            this.pictureBox5.Location = new System.Drawing.Point(248, 66);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(158, 20);
-            this.pictureBox5.TabIndex = 22;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Tag = "wall";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.MidnightBlue;
-            this.pictureBox2.Location = new System.Drawing.Point(386, 336);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(21, 158);
-            this.pictureBox2.TabIndex = 23;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "wall";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.MidnightBlue;
-            this.pictureBox6.Location = new System.Drawing.Point(249, 474);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(158, 20);
-            this.pictureBox6.TabIndex = 24;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Tag = "wall";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.MidnightBlue;
-            this.pictureBox7.Location = new System.Drawing.Point(233, 336);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(158, 20);
-            this.pictureBox7.TabIndex = 25;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Tag = "wall";
+            this.axWindowsMediaPlayerMusic.Enabled = true;
+            this.axWindowsMediaPlayerMusic.Location = new System.Drawing.Point(15, 64);
+            this.axWindowsMediaPlayerMusic.Name = "axWindowsMediaPlayerMusic";
+            this.axWindowsMediaPlayerMusic.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayerMusic.OcxState")));
+            this.axWindowsMediaPlayerMusic.Size = new System.Drawing.Size(389, 247);
+            this.axWindowsMediaPlayerMusic.TabIndex = 3;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(666, 572);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pacman);
-            this.Controls.Add(this.pinkGhost);
-            this.Controls.Add(this.yellowGhost);
-            this.Controls.Add(this.redGhost);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.wall);
+            this.BackColor = System.Drawing.SystemColors.Desktop;
+            this.ClientSize = new System.Drawing.Size(773, 451);
+            this.Controls.Add(this.Developer);
+            this.Controls.Add(this.Logo);
+            this.Controls.Add(this.axWindowsMediaPlayerMusic);
+            this.Controls.Add(this.btnSelectSongs);
+            this.Controls.Add(this.ListedSongs);
+            this.Controls.Add(this.TopPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
-            this.Text = "Miss PACMAN";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
-            ((System.ComponentModel.ISupportInitialize)(this.wall)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.redGhost)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yellowGhost)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pinkGhost)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pacman)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Music Player";
+            this.TopPanel.ResumeLayout(false);
+            this.TopPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayerMusic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,22 +163,13 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox wall;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox redGhost;
-        private System.Windows.Forms.PictureBox yellowGhost;
-        private System.Windows.Forms.PictureBox pinkGhost;
-        private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.ColorDialog colorDialog2;
-        private System.Windows.Forms.PictureBox pacman;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Panel TopPanel;
+        private System.Windows.Forms.Label VSPLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ListBox ListedSongs;
+        private System.Windows.Forms.Button btnSelectSongs;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayerMusic;
+        private System.Windows.Forms.PictureBox Logo;
+        private System.Windows.Forms.Label Developer;
     }
 }
-
